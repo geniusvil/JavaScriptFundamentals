@@ -1,0 +1,6 @@
+C:\MyStaff\06.JSPart1\HOMEWORK\06.Array\06.Array\bin\06.Array.dll.config
+C:\MyStaff\06.JSPart1\HOMEWORK\06.Array\06.Array\bin\06.Array.dll
+C:\MyStaff\06.JSPart1\HOMEWORK\06.Array\06.Array\bin\06.Array.pdb
+C:\MyStaff\06.JSPart1\HOMEWORK\06.Array\06.Array\obj\Debug\06.Array.csprojResolveAssemblyReference.cache
+C:\MyStaff\06.JSPart1\HOMEWORK\06.Array\06.Array\obj\Debug\06.Array.dll
+C:\MyStaff\06.JSPart1\HOMEWORK\06.Array\06.Array\obj\Debug\06.Array.pdb

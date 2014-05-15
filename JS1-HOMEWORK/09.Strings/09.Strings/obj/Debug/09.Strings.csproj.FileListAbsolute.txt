@@ -1,0 +1,12 @@
+C:\MyStaff\06.JSPart1\HOMEWORK\09.Strings\09.Strings\bin\09.Strings.dll.config
+C:\MyStaff\06.JSPart1\HOMEWORK\09.Strings\09.Strings\bin\09.Strings.dll
+C:\MyStaff\06.JSPart1\HOMEWORK\09.Strings\09.Strings\bin\09.Strings.pdb
+C:\MyStaff\06.JSPart1\HOMEWORK\09.Strings\09.Strings\obj\Debug\09.Strings.csprojResolveAssemblyReference.cache
+C:\MyStaff\06.JSPart1\HOMEWORK\09.Strings\09.Strings\obj\Debug\09.Strings.dll
+C:\MyStaff\06.JSPart1\HOMEWORK\09.Strings\09.Strings\obj\Debug\09.Strings.pdb
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\09.Strings\09.Strings\bin\09.Strings.dll.config
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\09.Strings\09.Strings\bin\09.Strings.dll
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\09.Strings\09.Strings\bin\09.Strings.pdb
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\09.Strings\09.Strings\obj\Debug\09.Strings.csprojResolveAssemblyReference.cache
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\09.Strings\09.Strings\obj\Debug\09.Strings.dll
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\09.Strings\09.Strings\obj\Debug\09.Strings.pdb

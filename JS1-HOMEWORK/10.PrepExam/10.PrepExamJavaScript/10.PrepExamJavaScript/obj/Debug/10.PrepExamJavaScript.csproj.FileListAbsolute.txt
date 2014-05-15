@@ -1,0 +1,12 @@
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\10.PrepExamJavaScript\10.PrepExamJavaScript\bin\10.PrepExamJavaScript.dll.config
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\10.PrepExamJavaScript\10.PrepExamJavaScript\bin\10.PrepExamJavaScript.dll
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\10.PrepExamJavaScript\10.PrepExamJavaScript\bin\10.PrepExamJavaScript.pdb
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\10.PrepExamJavaScript\10.PrepExamJavaScript\obj\Debug\10.PrepExamJavaScript.csprojResolveAssemblyReference.cache
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\10.PrepExamJavaScript\10.PrepExamJavaScript\obj\Debug\10.PrepExamJavaScript.dll
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\10.PrepExamJavaScript\10.PrepExamJavaScript\obj\Debug\10.PrepExamJavaScript.pdb
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\10.PrepExam\10.PrepExamJavaScript\10.PrepExamJavaScript\bin\10.PrepExamJavaScript.dll.config
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\10.PrepExam\10.PrepExamJavaScript\10.PrepExamJavaScript\bin\10.PrepExamJavaScript.dll
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\10.PrepExam\10.PrepExamJavaScript\10.PrepExamJavaScript\bin\10.PrepExamJavaScript.pdb
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\10.PrepExam\10.PrepExamJavaScript\10.PrepExamJavaScript\obj\Debug\10.PrepExamJavaScript.csprojResolveAssemblyReference.cache
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\10.PrepExam\10.PrepExamJavaScript\10.PrepExamJavaScript\obj\Debug\10.PrepExamJavaScript.dll
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\10.PrepExam\10.PrepExamJavaScript\10.PrepExamJavaScript\obj\Debug\10.PrepExamJavaScript.pdb

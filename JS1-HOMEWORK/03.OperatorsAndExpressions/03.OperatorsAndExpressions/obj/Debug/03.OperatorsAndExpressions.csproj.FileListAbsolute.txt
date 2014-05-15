@@ -1,0 +1,6 @@
+C:\MyStaff\06.JSPart1\HOMEWORK\03.OperatorsAndExpressions\03.OperatorsAndExpressions\bin\03.OperatorsAndExpressions.dll.config
+C:\MyStaff\06.JSPart1\HOMEWORK\03.OperatorsAndExpressions\03.OperatorsAndExpressions\bin\03.OperatorsAndExpressions.dll
+C:\MyStaff\06.JSPart1\HOMEWORK\03.OperatorsAndExpressions\03.OperatorsAndExpressions\bin\03.OperatorsAndExpressions.pdb
+C:\MyStaff\06.JSPart1\HOMEWORK\03.OperatorsAndExpressions\03.OperatorsAndExpressions\obj\Debug\03.OperatorsAndExpressions.csprojResolveAssemblyReference.cache
+C:\MyStaff\06.JSPart1\HOMEWORK\03.OperatorsAndExpressions\03.OperatorsAndExpressions\obj\Debug\03.OperatorsAndExpressions.dll
+C:\MyStaff\06.JSPart1\HOMEWORK\03.OperatorsAndExpressions\03.OperatorsAndExpressions\obj\Debug\03.OperatorsAndExpressions.pdb

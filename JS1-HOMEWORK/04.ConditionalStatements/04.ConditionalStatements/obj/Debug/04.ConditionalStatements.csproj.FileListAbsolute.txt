@@ -1,0 +1,6 @@
+C:\MyStaff\06.JSPart1\HOMEWORK\04.ConditionalStatements\04.ConditionalStatements\bin\04.ConditionalStatements.dll.config
+C:\MyStaff\06.JSPart1\HOMEWORK\04.ConditionalStatements\04.ConditionalStatements\bin\04.ConditionalStatements.dll
+C:\MyStaff\06.JSPart1\HOMEWORK\04.ConditionalStatements\04.ConditionalStatements\bin\04.ConditionalStatements.pdb
+C:\MyStaff\06.JSPart1\HOMEWORK\04.ConditionalStatements\04.ConditionalStatements\obj\Debug\04.ConditionalStatements.csprojResolveAssemblyReference.cache
+C:\MyStaff\06.JSPart1\HOMEWORK\04.ConditionalStatements\04.ConditionalStatements\obj\Debug\04.ConditionalStatements.dll
+C:\MyStaff\06.JSPart1\HOMEWORK\04.ConditionalStatements\04.ConditionalStatements\obj\Debug\04.ConditionalStatements.pdb

@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>HomePage</title>
+    <link href="styles/HomePageStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Homework: Strings</h1>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="HomePage.html" class="selected">Home</a>
+                    </li>
+                    <li>
+                        <a href="solutions/01.ReverseString.html">Task 1</a>
+                    </li>
+                    <li>
+                        <a href="solutions/02.IsExpressionCorect.html">Task 2</a>
+                    </li>
+                    <li>
+                        <a href="solutions/03.HowManyTimesASubstring.html">Task 3</a>
+                    </li>
+                    <li>
+                        <a href="solutions/04.ChangeText.html">Task 4</a>
+                    </li>
+                    <li>
+                        <a href="solutions/05.ReplaceWhitespaces.html">Task 5</a>
+                    </li>
+                    <li>
+                        <a href="solutions/06.ExtractTextFromHTML.html">Task 6</a>
+                    </li>
+                    <li>
+                        <a href="solutions/07.ParseURLAddress.html">Task 7</a>
+                    </li>
+                    <li>
+                        <a href="solutions/08.ReplaceTags.html">Task 8</a>
+                    </li>
+                    <li>
+                        <a href="solutions/09.ExtarctEmails.html">Task 9</a>
+                    </li>
+                    <li>
+                        <a href="solutions/10.ExtractPalindromes.html">Task 10</a>
+                    </li>
+                    <li>
+                        <a href="solutions/11.Placeholders.html">Task 11</a>
+                    </li>
+                    <li>
+                        <a href="solutions/12.CreateHTMLUL.html">Task 12</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div>
+                <h2>Task 1</h2>
+                <p>Write a JavaScript function reverses string and returns it. Example: "sample"  "elpmas".</p>
+            </div>
+            <div>
+                <h2>Task 2</h2>
+                <p>Write a JavaScript function to check if in a given expression the brackets are put correctly. Example of correct expression: ((a+b)/5-d). Example of incorrect expression: )(a+b)).</p>
+            </div>
+            <div>
+                <h2>Task 3</h2>
+                <p>
+                    Write a JavaScript function that finds how many times a substring is contained in a given text (perform case insensitive search).Example: The target substring is "in". The text is as follows:
+                    <div>We are living in an yellow submarine. We don't have anything else. Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.</div>The result is: 9.
+                </p>
+            </div>
+            <div>
+                <h2>Task 4</h2>
+                <p>
+                    You are given a text. Write a function that changes the text in all regions:
+                    <ul>
+                        <li><!upcase>text<!upcase> to uppercase.</li>
+                        <li><!lowcase>text<!lowcase> to lowercase</li>
+                        <li><!mixcase>text<!mixcase> to mix casing(random)</li>
+                    </ul>
+                    <div>We are <!mixcase>living<!/mixcase> in a <!upcase>yellow submarine<!/upcase>. We <!mixcase>don't<!/mixcase> have <!lowcase>anything<!/lowcase> else.</div>
+                    The expected result:
+                    <div>We are LiVinG in a YELLOW SUBMARINE. We dOn'T have anything else.</div>
+                    Regions can be nested
+                </p>
+            </div>
+            <div>
+                <h2>Task 5</h2>
+                <p>Write a function that replaces non breaking white-spaces in a text with &nbsp</p>
+            </div>
+            <div>
+                <h2>Task 6</h2>
+                <p>
+                    Write a function that extracts the content of a html page given as text. The function should return anything that is in a tag, without the tags:
+                    <div><!html><!head><!title>Sample site<!/title><!/head><!body><!div>text<!div>more text<!/div>and more...<!/div>in body<!/body><!/html></div>
+                    result:
+                    <div>Sample sitetextmore textand more...in body</div>
+                </p>
+            </div>
+            <div>
+                <h2>Task 7</h2>
+                <p>
+                    Write a script that parses an URL address given in the format: [protocol]://[server]/[resource] and extracts from it the [protocol], [server] and [resource] elements. Return the elements in a JSON object.For example from the URL http://www.devbg.org/forum/index.php the following information should be extracted:
+                    <div>{protocol: "http",server: "www.devbg.org",resource: "/forum/index.php"}</div>
+                </p>
+            </div>
+            <div>
+                <h2>Task 8</h2>
+                <p>
+                    Write a JavaScript function that replaces in a HTML document given as string all the tags <!a href="…">…<!a> with corresponding tags [URL=…]…/URL]. Sample HTML fragment:Write a script that parses an URL address given in the format: [protocol]://[server]/[resource] and extracts from it the [protocol], [server] and [resource] elements. Return the elements in a JSON object.For example from the URL http://www.devbg.org/forum/index.php the following information should be extracted:
+                    <div><!p>Please visit <!a href="http://academy.telerik. com">our site<!/a> to choose a training course. Also visit <!a href="www.devbg.org">our forum<!/a> to discuss the courses.<!/p></div>
+                    <div><!p>Please visit [URL=http://academy.telerik. com]our site[/URL] to choose a training course. Also visit [URL=www.devbg.org]our forum[/URL] to discuss the courses.<!/p></div>
+                </p>
+            </div>
+            <div>
+                <h2>Task 9</h2>
+                <p>Write a function for extracting all email addresses from given text. All substrings that match the format <!identifier>@<!host>…<!domain> should be recognized as emails. Return the emails as array of strings.</p>
+            </div>
+            <div>
+                <h2>Task 10</h2>
+                <p>Write a program that extracts from a given text all palindromes, e.g. "ABBA", "lamal", "exe".</p>
+            </div>
+            <div>
+                <h2>Task 11</h2>
+                <p>
+                    Write a function that formats a string using placeholders:
+                    <div>var str = stringFormat("Hello {0}!","Peter");//str = "Hello Peter!";</div>
+                    The function should work with up to 30 placeholders and all types
+                    <div>var format = "{0}, {1}, {0} text {2}";     </div>
+                    <div>var str = stringFormat(format,1,"Pesho","Gosho");</div>
+                    <div>//str = "1, Pesho, 1 text Gosho"</div>
+
+                </p>
+            </div>
+            <div>
+                <h2>Task 12</h2>
+                <p>
+                    Write a function that creates a HTML UL using a template for every HTML LI. The source of the list should an array of elements. Replace all placeholders marked with –{…}–   with the value of the corresponding property of the object. Example:
+                    <div><!div data-type="template" id="list-item"><!strong>-{name}-<!/strong> <!span>-{age}-<!/span><!/div></div>
+                    <div>var people = [{name: "Peter", age: 14},…];</div>
+                    <div>var tmpl = document.getElementById("list-item").innerHtml;</div>
+                    <div>var peopleList = generateList(people,template);</div>
+                    <div>//peopleList = "<!ul><!li><!strong>Peter<!/strong><!span>14<!/span><!/li><!li>…<!/li>…<!/ul>"</div>
+                </p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

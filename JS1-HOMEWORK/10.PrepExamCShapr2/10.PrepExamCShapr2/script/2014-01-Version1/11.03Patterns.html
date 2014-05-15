@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <pre>
+        Problem X – Patterns
+You are given a matrix of numbers. By given the pattern below, find the pattern with maximal sum:
+The pattern consists of neighbor cells in the matrix. The numbers in the cells must be consecutive, i.e. the following rules must be always valid:
+A = B -1, B = C – 1, C = D – 1, D = F – 1, F = E – 1, E = G - 1
+The size of the pattern is constant and always has the given form.
+Example:
+The patterns here are marks with green, blue and yellow colors:
+The green pattern has a sum of its numbers 35
+The blue pattern has a sum of its numbers 56
+The yellow pattern has a sum of its numbers -14
+The winning pattern is the blue with maximal sum of 56
+Input
+On the first line of the console you will find the number N – the number of rows and columns of the matrix
+On the next N lines you will find exactly N numbers, separated by a space. This are the numbers of the matrix.
+The input data will always be valid and in the described format. There is no need to check it explicitly.
+Output
+The output data consists of a single line. It should start with either “YES” or “NO”:
+If at least one pattern is found in the matrix – print “YES {sum}”, where sum is the sum of the numbers in the maximal pattern
+If no patterns are to be found in the matrix – print “NO {sum}”, where sum is the sum of the numbers, that are on the main diagonal of the matrix
+Constraints
+N will always be greater or equal to 5 and less or equal to 1000
+The numbers in the matrix will always be between -2147483648 and 2147483647
+Allowed working time for your program: 0.1 seconds.
+Allowed memory: 16 MB.
+</pre>
+    <script src="11.03Patterns.js"></script>
+</body>
+</html>

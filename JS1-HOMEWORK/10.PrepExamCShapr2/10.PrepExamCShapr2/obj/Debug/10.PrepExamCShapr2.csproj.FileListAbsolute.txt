@@ -1,0 +1,6 @@
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\10.PrepExamCShapr2\10.PrepExamCShapr2\bin\10.PrepExamCShapr2.dll.config
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\10.PrepExamCShapr2\10.PrepExamCShapr2\bin\10.PrepExamCShapr2.dll
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\10.PrepExamCShapr2\10.PrepExamCShapr2\bin\10.PrepExamCShapr2.pdb
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\10.PrepExamCShapr2\10.PrepExamCShapr2\obj\Debug\10.PrepExamCShapr2.csprojResolveAssemblyReference.cache
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\10.PrepExamCShapr2\10.PrepExamCShapr2\obj\Debug\10.PrepExamCShapr2.dll
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\10.PrepExamCShapr2\10.PrepExamCShapr2\obj\Debug\10.PrepExamCShapr2.pdb

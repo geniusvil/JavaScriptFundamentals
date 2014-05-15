@@ -1,0 +1,112 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial;
+  font-size: 16px;
+}
+body h1 {
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  font-style: italic;
+  margin-top: 10px;
+}
+body header {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+body header nav {
+  text-align: center;
+}
+body header nav ul {
+  text-align: center;
+  border-bottom: 2px solid red;
+  border-top: 2px solid red;
+  display: inline-block;
+}
+body header nav ul li {
+  display: inline-block;
+  margin: 10px 4px;
+  width: 57px;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+body header nav ul li:hover a {
+  font-weight: bold;
+  color: darkgrey;
+  text-decoration: underline;
+}
+#wrapper {
+  border: 2px solid #241e4f;
+  padding: 20px;
+  border-radius: 20px;
+  width: 600px;
+  height: 500px;
+  font-family: Arial;
+  font-size: 18px;
+  color: black;
+  box-shadow: rgba(72, 65, 65, 0.3) 5px 5px 5px;
+  margin: 20px auto;
+  text-align: center;
+  position: relative;
+}
+#wrapper .input {
+  margin: auto;
+}
+#wrapper .input h2 {
+  padding-bottom: 5px;
+  font-style: italic;
+  font-weight: bold;
+  border-bottom: 2px solid red;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+#wrapper .input input {
+  border: 2px solid black;
+  color: #70698a;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  background: #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 150px;
+  text-align: right;
+}
+#wrapper .input div {
+  margin-bottom: 10px;
+}
+#wrapper .input div:last-of-type input {
+  margin-bottom: 15px;
+}
+#wrapper .input a {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 7px 10px;
+  font-family: Arial;
+  background: #fc0606;
+  box-shadow: rgba(72, 65, 65, 0.3) -8px -8px 5px inset;
+}
+#wrapper .input a:hover {
+  background: #c61717;
+}
+#wrapper #js-console {
+  color: #4d4d8a;
+  margin: 20px;
+  padding: 5px 10px;
+  height: 250px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  word-wrap: break-word;
+  position: relative;
+  /*bottom:0;
+        left:auto;*/
+}
+/*# sourceMappingURL=js-console.css.map */

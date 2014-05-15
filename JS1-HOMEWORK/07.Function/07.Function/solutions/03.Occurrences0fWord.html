@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>03.Occurrences0fWord</title>
+    <link href="../styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Homework: Functions</h1>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../HomePage.html" class="selected">Home</a>
+                </li>
+                <li>
+                    <a href="01.LastDigitInWord.html">Task 1</a>
+                </li>
+                <li>
+                    <a href="02.ReverseNumber.html">Task 2</a>
+                </li>
+                <li>
+                    <a href="03.Occurrences0fWord.html">Task 3</a>
+                </li>
+                <li>
+                    <a href="04.NumberOfDivsInWebPage.html">Task 4</a>
+                </li>
+                <li>
+                    <a href="05.HowManyTimesInArray.html">Task 5</a>
+                </li>
+                <li>
+                    <a href="06.BiggerThanNeighors.html">Task 6</a>
+                </li>
+                <li>
+                    <a href="07.IndexOfNumberBiggerThanNeighbors.html">Task 7</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="wrapper">
+        <div class="input">
+            <h2>Task 3: Finds All The Occurrences Of Word In A Text</h2>
+            <div class="textarea">
+                <label for="inputText">Please enter some text: </label>
+                <textarea id="inputText" placeholder="Please enter some text"></textarea>
+            </div>
+            <div class="task3">
+                <label for="inputWord">Please enter word: </label>
+                <input type="text" id="inputWord" />
+            </div>
+            <div class="radio task3">
+                <label for="sensitive">CaseSensetive</label>
+                <input type="radio" id="sensitive" name="sensitive" value="CaseSensitive" />
+                <label for="insensitive">CaseInsensetive</label>
+                <input type="radio" id="insensitive" name="sensitive" value="CaseInSensitive" />
+            </div>
+
+            <a href="#" id="find" class="task3" onclick="execute()">Find Out</a>
+        </div>
+        <div id="js-console" class="task3"></div>
+    </div>
+    <script src="../scripts/js-console.js"></script>
+
+    <script src="../scripts/task03.js"></script>
+</body>
+</html>

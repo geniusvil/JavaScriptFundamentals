@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <pre>
+        Problem 3 – Clojure Parser
+Chavdar is a JavaScript developer, but he wants to learn some new technology. Technology that will change the way he thinks! He heard from friends that functional programming is really cool, especially the new rockstar there – Clojure.
+Clojure’s syntax is really simple and easy to read (except the trailing “)”). Here are some examples:
+Chavdar couldn’t install leiningen(famous Clojure interpretator) on his Windows to run his Clojure code, so he decided to make some really basic Clojure Parser. The parser should execute lines of basic Clojure commands (defining function and some math operations). Also It has to print the result of the last given line of code. Each line starts with “(“and ends with “)”.
+ NOTE: There could be more than one whitespace between the characters. For example
+ (     +           4   1         )  //Also has to return 5
+Also you can use old functions in the definitions of the new one. The parser should run code in this format:
+NOTE: There will be no more than 1 nested function in the definition of a new one.
+Example: Command can be (def func (+ 23 4 8 4 5 7)), but it won’t be (def func (+ 23 4 (* 2 2) 4 5 7))
+NOTE: There will be no nested functions in the last line. Only math operation and a sequence of numbers and functions. 
+Example: Last line can be (+ 23 4 8 myFunc 5 7), but it won’t be (+ 23 4 (* 2 myFunc) 4 newFunc 7))
+You are given an array of strings (commands). Execute all the commands and print the result only from the last line! 
+If you meet a function in a command it’ll be always defined in some of the lines before!
+“- 5” is not valid number but “-5” is.
+Function’s names are case sensitive.
+Functions cannot be overwritten (and there’ll be no attempts to do that).
+Each string will be a valid Clojure command (Except of the case when we are trying to divide a number by zero)
+Write method Solve that accepts the commands as array and prints the result of the last command.
+Input
+The method Solve accepts an array of strings. (Example: arr=[“command1”,”command2”,”command3”])
+Output
+Your method should return a single line - the result of the last command
+Example code
+function Solve(params) {
+	var answer = 0;
+	// Your code here...
+	return answer;
+}
+Constraints
+Array size will be between 1 and 1000 elements.
+Each element of the Array will be string containing valid command.
+Allowed working time for your program: 0.2 seconds. Allowed memory: 16 MB.
+</pre>
+    <script src="01.03ClojureParser.js"></script>
+</body>
+</html>

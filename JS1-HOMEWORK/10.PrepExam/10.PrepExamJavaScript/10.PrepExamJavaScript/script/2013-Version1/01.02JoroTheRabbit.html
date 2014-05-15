@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <pre>
+        Problem 2 – Joro the Naughty
+Joro is a naughty rabbit. He wants to jump around all day and night. Yet his mother is not so happy about that, she doesn't let him out. Of course Joro tried many times to escape, but his mother used to be the National Rabbit jump champion, so she can jump faster and higher than him. Still she is not that smart, so Joro decided that he can trick her by jumping using a sequence of jumps.
+Your task is to calculate if Joro can escape from his mother, using the given sequence of jumps.
+You are given a field of size N x M where the values are as follows:
+On the first row the numbers are from 1 to M, on the second row – from M+1 to 2*M, on the third – from 2*M +1 to 3*M, etc…
+By given position in the field, and using the patterns given, calculate if Joro can escape from his mother. 
+Examples:
+4x4				     5x3			            3x5
+You are also given a sequence of jumps over the field. The jumps are described with change to the row and column, i.e. when on position (R, C) with jump (-2, 3), Joro will go to position (R-2, C+3).
+When the sequence of jumps is over, Joro must start from the start of the jumps sequence.
+If Joro goes outside the field, he has escaped, if Joro goes to a previously visited position, he is caught.
+Input 
+The method Solve accepts a zero-based array of strings. Each of the string represents an integer sequence. The arguments are as follows:
+args[0] contains the numbers N, M and J. (J is number of jumps)
+args[1] contains the star position, R and C
+args[2] to args[2+J] contains the jumps. 
+Output 
+Your method should return a single string – “escaped SUM_OF_NUMBERS" or "caught NUMBER_OF_JUMPS"
+Constraints
+N and M will always be between 1 and 500
+J will be between 1 and 1000
+Allowed working time for your program: 0.2 seconds. Allowed memory: 16 MB.
+</pre>
+    <script src="01.02JoroTheRabbit.js"></script>
+</body>
+</html>

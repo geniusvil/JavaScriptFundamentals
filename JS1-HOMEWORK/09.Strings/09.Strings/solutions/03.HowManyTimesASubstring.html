@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>03.Occurrences0fWord</title>
+        <link href="../styles/js-console.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Homework: Strings</h1>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../HomePage.html" class="selected">Home</a>
+                    </li>
+                    <li>
+                        <a href="01.ReverseString.html">Task 1</a>
+                    </li>
+                    <li>
+                        <a href="02.IsExpressionCorect.html">Task 2</a>
+                    </li>
+                    <li>
+                        <a href="03.HowManyTimesASubstring.html">Task 3</a>
+                    </li>
+                    <li>
+                        <a href="04.ChangeText.html">Task 4</a>
+                    </li>
+                    <li>
+                        <a href="05.ReplaceWhitespaces.html">Task 5</a>
+                    </li>
+                    <li>
+                        <a href="06.ExtractTextFromHTML.html">Task 6</a>
+                    </li>
+                    <li>
+                        <a href="07.ParseURLAddress.html">Task 7</a>
+                    </li>
+                    <li>
+                        <a href="08.ReplaceTags.html">Task 8</a>
+                    </li>
+                    <li>
+                        <a href="09.ExtarctEmails.html">Task 9</a>
+                    </li>
+                    <li>
+                        <a href="10.ExtractPalindromes.html">Task 10</a>
+                    </li>
+                    <li>
+                        <a href="11.Placeholders.html">Task 11</a>
+                    </li>
+                    <li>
+                        <a href="12.CreateHTMLUL.html">Task 12</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div id="wrapper">
+            <div class="input">
+                <h2>Task 3: How Many Times A String Contains In Text</h2>
+                <div class="textarea">
+                    <label for="inputText">Please enter some text: </label>
+                    <textarea id="inputText" placeholder="We are living in an yellow submarine. We don't have anything else. Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days."></textarea>
+                </div>
+                <div class="task3">
+                    <label for="inputWord">Please enter substring: </label>
+                    <input type="text" id="inputWord" value="in" />
+                </div>
+                <div class="radio task3">
+                    <label for="sensitive">CaseSensetive</label>
+                    <input type="radio" id="sensitive" name="sensitive" value="CaseSensitive" />
+                    <label for="insensitive">CaseInsensetive</label>
+                    <input type="radio" id="insensitive" name="sensitive" value="CaseInSensitive" checked />
+
+                    <a href="#" id="find" class="task3" onclick="execute()">Calculate</a>
+                </div>
+            </div>
+            <div id="js-console" class="task3"></div>
+        </div>
+        <script src="../scripts/js-console.js"></script>
+
+        <script src="../scripts/task03.js"></script>
+    </body>
+</html>
+        

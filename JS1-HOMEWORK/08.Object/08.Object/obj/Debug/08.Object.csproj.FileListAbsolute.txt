@@ -1,0 +1,18 @@
+c:\users\vil\documents\visual studio 2013\Projects\08.Object\08.Object\bin\08.Object.dll.config
+c:\users\vil\documents\visual studio 2013\Projects\08.Object\08.Object\bin\08.Object.dll
+c:\users\vil\documents\visual studio 2013\Projects\08.Object\08.Object\bin\08.Object.pdb
+c:\users\vil\documents\visual studio 2013\Projects\08.Object\08.Object\obj\Debug\08.Object.csprojResolveAssemblyReference.cache
+c:\users\vil\documents\visual studio 2013\Projects\08.Object\08.Object\obj\Debug\08.Object.dll
+c:\users\vil\documents\visual studio 2013\Projects\08.Object\08.Object\obj\Debug\08.Object.pdb
+C:\MyStaff\06.JSPart1\HOMEWORK\08.Object\08.Object\bin\08.Object.dll.config
+C:\MyStaff\06.JSPart1\HOMEWORK\08.Object\08.Object\bin\08.Object.dll
+C:\MyStaff\06.JSPart1\HOMEWORK\08.Object\08.Object\bin\08.Object.pdb
+C:\MyStaff\06.JSPart1\HOMEWORK\08.Object\08.Object\obj\Debug\08.Object.csprojResolveAssemblyReference.cache
+C:\MyStaff\06.JSPart1\HOMEWORK\08.Object\08.Object\obj\Debug\08.Object.dll
+C:\MyStaff\06.JSPart1\HOMEWORK\08.Object\08.Object\obj\Debug\08.Object.pdb
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\08.Object\08.Object\bin\08.Object.dll.config
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\08.Object\08.Object\bin\08.Object.dll
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\08.Object\08.Object\bin\08.Object.pdb
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\08.Object\08.Object\obj\Debug\08.Object.csprojResolveAssemblyReference.cache
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\08.Object\08.Object\obj\Debug\08.Object.dll
+C:\MyStaff\06.JSPart1\JS1-HOMEWORK\08.Object\08.Object\obj\Debug\08.Object.pdb

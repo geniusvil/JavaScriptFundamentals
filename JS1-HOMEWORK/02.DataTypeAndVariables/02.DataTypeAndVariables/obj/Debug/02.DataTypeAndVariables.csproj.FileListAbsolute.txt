@@ -1,0 +1,6 @@
+C:\MyStaff\06.JSPart1\HOMEWORK\02.DataTypeAndVariables\02.DataTypeAndVariables\bin\02.DataTypeAndVariables.dll.config
+C:\MyStaff\06.JSPart1\HOMEWORK\02.DataTypeAndVariables\02.DataTypeAndVariables\bin\02.DataTypeAndVariables.dll
+C:\MyStaff\06.JSPart1\HOMEWORK\02.DataTypeAndVariables\02.DataTypeAndVariables\bin\02.DataTypeAndVariables.pdb
+C:\MyStaff\06.JSPart1\HOMEWORK\02.DataTypeAndVariables\02.DataTypeAndVariables\obj\Debug\02.DataTypeAndVariables.csprojResolveAssemblyReference.cache
+C:\MyStaff\06.JSPart1\HOMEWORK\02.DataTypeAndVariables\02.DataTypeAndVariables\obj\Debug\02.DataTypeAndVariables.dll
+C:\MyStaff\06.JSPart1\HOMEWORK\02.DataTypeAndVariables\02.DataTypeAndVariables\obj\Debug\02.DataTypeAndVariables.pdb

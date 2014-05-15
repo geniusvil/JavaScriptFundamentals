@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <pre>
+        Problem 2 – Quadronacci Rectangle
+You all know the Fibonacci sequence. Well, the Quadronacci sequence is almost the same, but it uses the last four numbers (instead of the last two) to calculate the next number in the sequence. So, we can define each element in the sequence as:
+Q n = Q n-1 + Q n-2 + Q n-3 + Q n-4
+where Q n is the current Quadronacci number (n is the index of the current Quadronacci number).
+The Quadronacci sequence can begin with any four integer numbers – positive or negative – and continue as described by the formula above.
+Now, a Quadronacci rectangle is what you probably expect – a rectangle (matrix) of numbers from the Quadronacci sequence. So we can say that the rectangle's height is actually the number of rows and the rectangle's width is the numbers of columns of numbers.
+If use R for the number of rows and C for the number of columns, then the first row in the rectangle contains the first C numbers from the sequence, the second row contains the next C numbers from the sequence and so on.
+Your task is to write a program, which prints to the console a Quadronacci rectangle by given the first four numbers of the Quadronacci sequence, the number of rows and the number of columns in the rectangle.
+Input
+The input data should be read from the console.
+The first four lines will contain the values of the first four numbers of the Quadronacci sequence – each number will be on a separate line.
+On the fifth line there will be the number R – the number of rows of the Quadronacci rectangle.
+On the sixth line there will be the number C – the number of columns of the Quadronacci rectangle.
+The input data will always be valid and in the format described. There is no need to check it explicitly.
+Output
+The output data should be printed on the console.
+The output should contain exactly R lines with exactly C numbers per line – representing each line of the Quadronacci rectangle. Numbers should be separated by exactly one whitespace (" "), and there shouldn't be any whitespaces after the last number on a line.
+Constraints
+1 ≤ R ≤ 20.
+4 ≤ C ≤ 20.
+Any number in the Quadronacci rectangle can be stored in a 64-bit signed integer.
+Allowed working time for your program: 0.1 seconds. Allowed memory: 16 MB.
+</pre>
+    <script src="07.2QuadronacciRectangle.js"></script>
+</body>
+</html>

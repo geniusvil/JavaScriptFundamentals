@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Homework - Operators And Expressions</title>
+    <link href="styles/js-consoleAll.css" rel="stylesheet" />
+
+</head>
+<body>
+    <h1>Homework - Operators And Expressions</h1>
+    <div id="wrapper">
+        <div class="input">
+            <p>Task 1: Odd Or Even</p>
+            <label for="inputNumber1">Please enter number: </label>
+            <input type="text" id="inputNumber1" />
+            <a href="#" id="find1" onclick="OddOrEven()">Find Odd Or Even</a>
+        </div>
+        <div id="js-console"></div>
+        <div class="input">
+            <p>Task 2: Is Divided By 5 And 7 At The Same Time</p>
+            <label for="inputNumber2">Please enter number: </label>
+            <input type="text" id="inputNumber2" />
+            <a href="#" id="find2" onclick="DividedBy35()">Find The Truth</a>
+        </div>
+        <div class="js-console"></div>
+        <div class="input">
+            <p>Task 3: Calculate Rectangular's Area</p>
+            <div>
+                <label for="inputSideA">Please enter side "a": </label>
+                <input type="text" id="inputSideA" />
+            </div>
+            <div>
+                <label for="inputSideB">Please enter side "b": </label>
+                <input type="text" id="inputSideB" />
+            </div>
+
+            <a href="#" id="find3" onclick="RectangularArea()">Calculate</a>
+
+        </div>
+        <div class="js-console"></div>
+        <div class="input">
+            <p>Task 4: Is The Third Digit 7</p>
+            <label for="inputNumber4">Please enter number: </label>
+            <input type="text" id="inputNumbe4r" />
+            <a href="#" id="find4" onclick="IsThirdDigitIs7()">Is It 7?</a>
+        </div>
+        <div class="js-console"></div>
+        <div class="input">
+            <p>Task 5: What Is The 3th Bit</p>
+            <label for="inputNumber5">Please enter number: </label>
+            <input type="text" id="inputNumber5" />
+            <a href="#" id="find5" onclick="WhatIsThe3thBit()">Find</a>
+        </div>
+        <div class="js-console"></div>
+        <div class="input">
+            <p>Task 6: Is The Point In The Circle (0,5)</p>
+            <div>
+                <label for="inputX">Please enter coordinate X: </label>
+                <input type="text" id="inputX" />
+            </div>
+            <div>
+                <label for="inputY">Please enter coordinate Y</label>
+                <input type="text" id="inputY" />
+            </div>
+
+            <a href="#" id="find6" onclick="IsInCircle()">Find Out</a>
+        </div>
+        <div class="js-console"></div>
+        <div class="input">
+            <p>Task 7: Is The Number Prime?</p>
+            <label for="inputNumber7">Please enter number [0,100]: </label>
+            <input type="text" id="inputNumber7" />
+            <a href="#" id="find7" onclick="IsItPrime()">Find Out</a>
+        </div>
+        <div class="js-console"></div>
+        <div class="input">
+            <p>Task 8: Calculate Trapezoid's Area</p>
+            <div>
+                <label for="inputSideA8">Please enter side "a": </label>
+                <input type="text" id="inputSideA8" />
+            </div>
+            <div>
+                <label for="inputSideB8">Please enter side "b": </label>
+                <input type="text" id="inputSideB8" />
+            </div>
+            <div>
+                <label for="inputHeight8">Please enter height:&nbsp;&nbsp;</label>
+                <input type="text" id="inputHeight8" />
+            </div>
+
+            <a href="#" id="find8" onclick="TrapezoidArea()">Calculate</a>
+
+        </div>
+        <div class="js-console"></div>
+        <div class="input">
+            <p>Task 9: Is The Point In The Circle ((1,1), 3) And Out Of Rectangle (top=1, left=-1, width=6, height=2)</p>
+            <div>
+                <label for="inputX9">Please enter coordinate X: </label>
+                <input type="text" id="inputX9" />
+            </div>
+            <div>
+                <label for="inputY9">Please enter coordinate Y</label>
+                <input type="text" id="inputY9" />
+            </div>
+
+            <a href="#" id="find9" onclick="IsInCircleOutRec()">Find Out</a>
+        </div>
+        <div class="js-console"></div>
+    </div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function OddOrEven() {
+            var inputNumber1 = jsConsole.readFloat("#inputNumber1");
+            if (inputNumber1 % 2 === 0) {
+                jsConsole.writeLine("The input number " + inputNumber1 + " is even.");
+            }
+            else {
+                jsConsole.writeLine("The input number " + inputNumber1 + " is odd.");
+            }
+        }
+        function DividedBy35() {
+            var inputNumber2 = jsConsole.readFloat("#inputNumber2");
+            if (inputNumber2 % 35 === 0) {
+                jsConsole.writeLine("The input number " + inputNumber2 + " is divided by 5 and 7 at the same time.");
+            }
+            else {
+                jsConsole.writeLine("The input number " + inputNumber2 + " is NOT divided by 5 and 7 at the same time.");
+            }
+        }
+        function RectangularArea() {
+            var inputSideA = jsConsole.readFloat("#inputSideA");
+            var inputSideB = jsConsole.readFloat("#inputSideB");
+            var area = inputSideA * inputSideB;
+            jsConsole.writeLine("The area of rectangular with side " + inputSideA + " and side " + inputSideB + " is " + area + ".");
+        }
+        function IsThirdDigitIs7() {
+            var inputNumber4 = jsConsole.readFloat("#inputNumber4");
+
+            var inputIntNumber = parseInt(inputNumber / 100)
+            if (inputIntNumber % 10 === 7) {
+                jsConsole.writeLine("Third digit of number " + inputNumber4 + " is 7.");
+            }
+            else {
+                jsConsole.writeLine("Third digit of number: " + inputNumber4 + " is NOT 7.");
+            }
+        }
+        function WhatIsThe3thBit() {
+            var inputNumber5 = jsConsole.readFloat("#inputNumber5");
+
+            var position = 3;
+            var mask = 1 << position;
+            var resultWithMask = inputNumber & mask;
+            var bit = resultWithMask >> position;
+
+            jsConsole.writeLine("Third bit of number " + inputNumber5 + " is " + bit + ".");
+
+        }
+        function IsInCircle() {
+            var inputX = jsConsole.readFloat("#inputX");
+            var inputY = jsConsole.readFloat("#inputY");
+            var radius = 5;
+            if ((inputX * inputX + inputY * inputY) < radius * radius) {
+                jsConsole.writeLine("A Point (" + inputX + "," + inputY + ") is WITHIN a circle K(0,5).");
+            }
+            else {
+                jsConsole.writeLine("A Point (" + inputX + "," + inputY + ") is OUTSIDE a circle K(0,5).");
+            }
+
+        }
+        function IsItPrime() {
+            var inputNumber7 = jsConsole.readInteger("#inputNumber");
+
+            var countDivivers7 = 0;
+
+            if (inputNumber7 < 0) {
+                jsConsole.writeLine("Please enter Positive number.");
+            }
+
+            else if (inputNumber7 < 2) {
+                jsConsole.writeLine("The Number " + inputNumber7 + " is NOT prime.");
+            }
+
+            else {
+
+                for (var i = 2; i <= Math.sqrt(inputNumber7) ; i++) {
+                    if (inputNumber7 % i == 0) {
+                        jsConsole.writeLine("The Number " + inputNumber7 + " is NOT prime.");
+                        break;
+                    }
+                }
+
+                if (countDivivers7 == 0) {
+                    jsConsole.writeLine("The Number " + inputNumber7 + " IS prime.");
+                }
+            }
+        }
+        function TrapezoidArea() {
+            var inputSideA8 = jsConsole.readFloat("#inputSideA8");
+            var inputSideB8 = jsConsole.readFloat("#inputSideB8");
+            var inputHeight8 = jsConsole.readFloat("#inputHeight8");
+            var area8 = ((inputSideA8 + inputSideB8) * inputHeight8) / 2;
+            jsConsole.writeLine("The area of trapezoid with sides " + inputSideA8 + " and " + inputSideB8 + ", and height " + inputHeight8 + " is " + area8 + ".");
+        }
+        function IsInCircleOutRec() {
+
+            var inputX9 = jsConsole.readFloat("#inputX9");
+            var inputY9 = jsConsole.readFloat("#inputY9");
+            var Xc = 1;
+            var Yc = 1;
+            var radius9 = 3;
+            var XL = -1;
+            var YL = 1;
+            var width = 6;
+            var height = 3;
+            var XR = XL + width;
+            var YR = YL - height;
+            var InCircle = false;
+            var InRec = false;
+
+            if (((inputX9 - Xc) * (inputX9 - Xc) + (inputY9 - Yc) * (inputY9 - Yc)) < radius9 * radius9) {
+                InCircle = true;
+            }
+            else {
+                InCircle = false;
+            }
+
+            if ((inputX9 > XL && inputX9 < XR) && (inputY9 < YL && inputY9 > YR)) {
+                InRec = true;
+            }
+            else {
+                InRec = false;
+            }
+            if (InCircle == true && InRec == false) {
+                jsConsole.writeLine("Point (" + inputX9 + "," + inputY9 + ") is INSIDE of Circle ((1,1), 3) and OUT of Rectangle (top=1, left=-1, width=6, height=2)");
+            }
+            else if (InRec == true && InCircle == false) {
+                jsConsole.writeLine("Point (" + inputX9 + "," + inputY9 + ") is OUTSIDE of Circle ((1,1), 3) and INSIDE of Rectangle (top=1, left=-1, width=6, height=2)");
+            }
+            else if (InCircle == true && InRec == true) {
+                jsConsole.writeLine("Point (" + inputX9 + "," + inputY9 + ") is INSIDE of Circle ((1,1), 3) and INSIDE of Rectangle (top=1, left=-1, width=6, height=2)");
+            }
+            else {
+                jsConsole.writeLine("Point (" + inputX9 + "," + inputY9 + ") is OUTSIDE of Circle ((1,1), 3) and OUTSIDE of Rectangle (top=1, left=-1, width=6, height=2)");
+            }
+        }
+    </script>
+</body>
+</html>
+5

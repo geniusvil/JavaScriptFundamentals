@@ -1,0 +1,129 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial;
+  font-size: 16px;
+}
+body h1 {
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  font-style: italic;
+  margin-top: 10px;
+  -webkit-text-shadow: rgba(72, 65, 65, 0.3) 5px 5px 5px;
+  text-shadow: rgba(72, 65, 65, 0.3) 5px 5px 5px;
+}
+body header {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+body header nav {
+  text-align: center;
+}
+body header nav ul {
+  text-align: center;
+  border-bottom: 2px solid red;
+  border-top: 2px solid red;
+  display: inline-block;
+  width: 600px;
+}
+body header nav ul li {
+  display: inline-block;
+  margin: 10px 4px;
+  width: 57px;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+body header nav ul li:hover a {
+  font-weight: bold;
+  color: darkgrey;
+  text-decoration: underline;
+}
+#wrapper {
+  border: 2px solid #241e4f;
+  padding: 20px;
+  border-radius: 20px;
+  width: 600px;
+  height: 500px;
+  font-family: Arial;
+  font-size: 18px;
+  color: black;
+  box-shadow: rgba(72, 65, 65, 0.3) 5px 5px 5px;
+  margin: 20px auto;
+  text-align: center;
+  position: relative;
+}
+#wrapper h2 {
+  padding-bottom: 5px;
+  font-style: italic;
+  font-weight: bold;
+  border-bottom: 2px solid red;
+  margin-bottom: 30px;
+  font-size: 1.2em;
+}
+#wrapper div.wrapper {
+  display: table-row;
+  height: 80px;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+}
+#wrapper div.wrapper#Div3 #hostYellow {
+  position: relative;
+  text-align: left;
+}
+#wrapper div.wrapper div {
+  width: 115px;
+  border: 2px solid black;
+  /*border-bottom: none;
+                border-left: none;*/
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+#wrapper a {
+  text-decoration: none;
+  color: black;
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 7px 10px;
+  font-family: Arial;
+  background: #fc0606;
+  box-shadow: rgba(72, 65, 65, 0.3) -8px -8px 5px inset;
+  position: absolute;
+  top: 360px;
+  left: 270px;
+  margin-top: 50px;
+}
+#wrapper #red {
+  background: red;
+}
+#wrapper #blue {
+  background: blue;
+}
+#wrapper #yellow {
+  background: yellow;
+  position: absolute;
+  bottom: 0;
+  height: 30%;
+  border: none;
+  border-top: 4px solid black;
+}
+#wrapper #Div4 {
+  border-bottom: 2px solid black;
+}
+#wrapper #js-console {
+  color: #4d4d8a;
+  margin: 20px auto;
+  margin-top: 50px;
+  padding: 5px 10px;
+  height: 60px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  word-wrap: break-word;
+}
+/*# sourceMappingURL=task4.css.map */

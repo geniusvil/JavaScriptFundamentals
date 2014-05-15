@@ -1,0 +1,6 @@
+C:\MyStaff\06.JSPart1\HOMEWORK\07.Function\07.Function\bin\07.Function.dll.config
+C:\MyStaff\06.JSPart1\HOMEWORK\07.Function\07.Function\bin\07.Function.dll
+C:\MyStaff\06.JSPart1\HOMEWORK\07.Function\07.Function\bin\07.Function.pdb
+C:\MyStaff\06.JSPart1\HOMEWORK\07.Function\07.Function\obj\Debug\07.Function.csprojResolveAssemblyReference.cache
+C:\MyStaff\06.JSPart1\HOMEWORK\07.Function\07.Function\obj\Debug\07.Function.dll
+C:\MyStaff\06.JSPart1\HOMEWORK\07.Function\07.Function\obj\Debug\07.Function.pdb

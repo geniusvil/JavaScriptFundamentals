@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <pre>
+        Problem 2 – Special Value
+You are given N number of rows. Each row contains a different number of columns. Each cell in a row contains a negative number or an index of a cell on the next row, i.e. rows[row][column] holds an index of cell in [row+1]. The row after the last row is the first row. If the number of columns on the next row is C, each of the cells on the current row are in the range [-C, C-1] inclusive.
+A path in the rows is the max number of cells that can be passed, starting from any of the cells on the first row, and following the pattern above (i.e. each cell on row R, holds a negative number or an index on row R+1). The path ends when the path reaches an already visited cell in this path, or the number in the cell is negative.
+A special value is the sum of the path + the absolute value of a negative number reached. If a path reaches a visited cell, this path cannot get a special value.
+Your task is to find the biggest special value using the given rows.
+Input
+The input data should be read from the console. 
+On the first line you will be given the number N.
+On the next N lines you will be given the numbers in each row, separated with ", " (comma and space).
+Output
+The output data should be printed on the console.
+The output should contain only the maximal special number.
+Constraints
+The rows will be between 1 and 1000 inclusive.
+The cells on each row will be between 1 and 1000 inclusive.
+Allowed working time for your program: 0.5 seconds. Allowed memory: 16 MB.
+</pre>
+    <script src="08.02SpecialValue.js"></script>
+</body>
+</html>

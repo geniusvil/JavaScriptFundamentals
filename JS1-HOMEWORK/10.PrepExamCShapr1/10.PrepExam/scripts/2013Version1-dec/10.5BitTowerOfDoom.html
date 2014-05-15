@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <pre>
+        Problem 5 – Bit Tower of Doom
+I bet you never heard of the Bit Tower of Doom... It is about time you do.
+This was an ancient game where bits from all parts of the 8 kingdoms were gathered to defend the honor of their lords by dueling to the death. Many political interests were at stake and that's why the games were usually pretty intense. In many cases there were only a few bits left alive at the end. Sometimes there were none... Yeah, that's how intense it was.
+The bits were fierce knight warriors and they were sworn to follow their lord's every command even if this meant certain death.
+The battles, or so called games, were held in the capital in front of the castle of the High King. There was a special tower, called the Bit Tower of Doom that was 8 floors high – one floor for every kingdom.
+Every floor was filled with knights that were arriving in chariots. Every chariot had 8 seats, but never carried more than 4 bit knights since they had strong issues regarding personal space.
+It is in the knight's nature to guard his territory. Every knight is guarding the cell he is taking as well as one cell to the left and one cell to the right of his position. This is valid at all times and every time this personal space is violated, there surely will be a fight.
+You must recreate the games by building a computer program and calculating the outcome of the games by following some specified commands.
+1. The tower is always 8 floors high where the first floor is indexed as 0 and the last as 7.
+2. Every floor has 8 cells or positions in it, where the most left cell is considered first and it is indexed as 0.
+3. The chariots will always arrive in the order of the floors, where the first chariot will fill the first floor with the knights that are inside of it and then the following chariots will continue filling the rest of the floors up until the last one.
+4. The chariots will be read from the console and they will be represented as integer numbers.
+5. The knights will be placed on the floor according to their position in the chariot. If the knight was sitting in the first seat of the chariot then he will take the last position on the floor and in both cases will be at the very right corner. Or with other words – the first bit of the chariot will be placed on the last position of the current floor, the second bit of the chariot will be placed in the second to last position of the floor and so forth. *See picture bellow
+6. The battle commands are issued by the lords, and carried out by the knights. There are 3 types of commands - “select”, “kill”, and “move”. Any of these commands will be followed by 2 lines that will represent the number of the floor (0...7) and the current/destination position of the knight.
+“select” - when this command is issued, it will select a certain knight from e certain floor and with one of the following commands he will do battle or simply move around. In both cases he will leave his cell for the moment and will wait for a new position and action he will have to perform there.
+“kill” - this is the command for dueling with other knights. For simplicity we will call the selected knight the “attacker” and the knight in the destination position – the “defender”. If there is a knight in the destination position then the attacker will be ready and will kill the defender and stay in his position. If there is no defender in the destination then the knight will look for other defenders in the range of his personal space (one to the left and one to the right). If there is one defender on either the left or the right side of the destination position, then the knight will not be ready enough for a fight since the defender would have spotted him first, so he will manage to kill the neighbor defender, but will also die in the duel. If on the other hand there are two neighbor defenders (one on the left and one on the right) then the knight will not manage to survive and will be killed by them while they keep their lives and positions.
+“move” - this command is similar to the kill command but it means that the knight will be totally unprepared for a duel and in any case if he enters other knight's territory he will loose and die.
+7. It is possible for a lord to show mercy or to punish a knight by ordering him to jump out of his floor. This happens when the destination position for either the kill or the move commands is outside of the boundaries of the floor (0...7). Unfortunately only knights that are on the first or the second floor will be able to survive the jump. The rest will die from the high fall... Either dead or alive, knight that has jumped will no longer be selected – he will be free to keep his life or rest in peace.
+Your task is to calculate three values and print them on the console:
+1. How many knights have entered the tower at the beginning of the game?
+2. How many knights have survived after the game has finished?
+3. You must convert every floor back to an integer and to find the sum of all the floors after the game has finished.
+Input
+The input data should be read from the console.
+The first 8 lines will be the chariots carrying the knights to the tower.
+After that there will be an unknown number of the commands: “select”, “kill”, and “move”. After each of them there will be two following lines. The first one will be the index of the floor and the second one will be the position.
+The game will finish when the command “end” is read from the console.
+The input data will always be valid and in the format described. There is no need to check it explicitly.
+Output
+The output data should be printed on the console.
+The output must always consist of 3 lines. First line will be the number of all bit knights that entered the tower. The second line will be the number of all knights that survived the tower. The third line will be the sum of the integer representation of all the floors after the end of the game.
+Constraints
+The chariots are positive numbers in the range [0…170]
+There always will be exactly 8 chariots.
+There will be no case where two knights are next to each other in the beginning of the game.
+No more than one knight will be selected at any point of the game and there always will be an action command after the selection has been made – either kill or move.
+There will always be a knight in the position for the select command.
+Allowed work time for your program: 0.1 seconds.
+Allowed memory: 16 MB.
+</pre>
+    <script src="10.5BitTowerOfDoom.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+C:\MyStaff\06.JSPart1\HOMEWORK\05.Loops\05.Loops\bin\05.Loops.dll.config
+C:\MyStaff\06.JSPart1\HOMEWORK\05.Loops\05.Loops\bin\05.Loops.dll
+C:\MyStaff\06.JSPart1\HOMEWORK\05.Loops\05.Loops\bin\05.Loops.pdb
+C:\MyStaff\06.JSPart1\HOMEWORK\05.Loops\05.Loops\obj\Debug\05.Loops.csprojResolveAssemblyReference.cache
+C:\MyStaff\06.JSPart1\HOMEWORK\05.Loops\05.Loops\obj\Debug\05.Loops.dll
+C:\MyStaff\06.JSPart1\HOMEWORK\05.Loops\05.Loops\obj\Debug\05.Loops.pdb
